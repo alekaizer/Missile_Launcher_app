@@ -4,5 +4,8 @@
     <string name="app_name">Missile Launcher</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="author">Achille AROUKO</string>
+    <string name="description">Projet LO52-A14/UTBM</string>
 
 </resources>
