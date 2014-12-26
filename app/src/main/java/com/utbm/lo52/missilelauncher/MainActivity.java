@@ -1,8 +1,8 @@
 package com.utbm.lo52.missilelauncher;
 
+import android.app.Activity;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -15,7 +15,7 @@ import android.widget.Button;
  * of an Android Home Made System's labs at UTBM-France
  * Supervisor-Teacher: Fabien Brisset(<a href="mailto://fabien.brisset@utbm.fr">fabien.brisset@utbm.fr</a>)
  */
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

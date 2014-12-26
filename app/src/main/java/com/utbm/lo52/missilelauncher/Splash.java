@@ -1,7 +1,7 @@
 package com.utbm.lo52.missilelauncher;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -15,7 +15,7 @@ import java.util.TimerTask;
  * App's splash, consisted of a timer of 4.5 seconds and then launch the MainActivity.class
  */
 
-public class Splash extends ActionBarActivity {
+public class Splash extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
