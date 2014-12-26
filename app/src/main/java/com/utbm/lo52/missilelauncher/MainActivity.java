@@ -1,10 +1,8 @@
 package com.utbm.lo52.missilelauncher;
 
-import android.annotation.TargetApi;
 import android.graphics.drawable.AnimationDrawable;
-import android.os.Build;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -81,7 +79,6 @@ public class MainActivity extends ActionBarActivity {
 
         // fire button behaviour
         fire.setOnClickListener(new View.OnClickListener() {
-            @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View v) {
 
