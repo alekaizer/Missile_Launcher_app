@@ -9,6 +9,11 @@ import android.view.MenuItem;
 import java.util.Timer;
 import java.util.TimerTask;
 
+/**
+ * 23/12/2014
+ * @author Achille AROUKO
+ * App's splash, consisted of a timer of 4.5 seconds and then launch the MainActivity.class
+ */
 
 public class Splash extends ActionBarActivity {
 
@@ -20,6 +25,7 @@ public class Splash extends ActionBarActivity {
         splashTimer.schedule(new TimerTask() {
             @Override
             public void run() {
+                // implicit call of MainActivity using Intent
                 Intent intent = new Intent(Splash.this,MainActivity.class);
                 startActivity(intent);
                 splashTimer.cancel();

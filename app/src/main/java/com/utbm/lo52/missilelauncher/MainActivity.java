@@ -10,7 +10,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-
+/**
+ * @author Achille AROUKO
+ * 10/12/2014
+ * This app is made to control an usb missile launcher, it has been asked for the purpose
+ * of an Android Home Made System's labs at UTBM-France
+ * Supervisor-Teacher: Fabien Brisset(<a href="mailto://fabien.brisset@utbm.fr">fabien.brisset@utbm.fr</a>)
+ */
 public class MainActivity extends ActionBarActivity {
 
     @Override
@@ -23,8 +29,8 @@ public class MainActivity extends ActionBarActivity {
         Button left = (Button) findViewById(R.id.left);
         Button right = (Button) findViewById(R.id.right);
         Button fire = (Button) findViewById(R.id.fire);
-        AnimationDrawable animationDrawable;
 
+        // up button behaviour
         up.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -36,6 +42,7 @@ public class MainActivity extends ActionBarActivity {
             }
         });
 
+        //down button behaviour
         down.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -47,6 +54,7 @@ public class MainActivity extends ActionBarActivity {
             }
         });
 
+        // left button behaviour
         left.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,7 +66,7 @@ public class MainActivity extends ActionBarActivity {
             }
         });
 
-
+        // right button behaviour
         right.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -71,7 +79,7 @@ public class MainActivity extends ActionBarActivity {
         });
 
 
-
+        // fire button behaviour
         fire.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
